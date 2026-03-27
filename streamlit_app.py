@@ -9,7 +9,7 @@ communication=st.slider('Communication',1,10,5)
 projects=st.slider('Projects',0,5,2)
 
 if st.button('Predict'):
-    url="https://placement-prediction-4aoe.onrender.com/predict"
+    url="https://placement-prediction-5pej.onrender.com/predict"
     
     data={
         'cgpa':cgpa,
